@@ -2,5 +2,5 @@
 {
 "version":"1.1.0",
 "download":"https://wshape1.github.io/plugins/WsShop/[7.0]WsShop_v1.1.0.phar",
-"new":""
+"new":"v1.1.0 | 2017-10-7 \n · 修改商店(购买,出售,附魔,伪装,药水)为箱子浮空字\n · 增加指令update (/shop update) 检查版本 (后台使用)\n · emmmφ(>ω<)"
 }
