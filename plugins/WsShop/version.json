@@ -1,6 +1,6 @@
 
 {
-"version":"1.1.0",
+"version":"1.1.2",
 "download":"https://wshape1.github.io/plugins/WsShop/[7.0]WsShop_v1.1.2.phar",
 "new":"v1.1.2 | 2017-10-14\n · 修复配置无法生成的bug\n · 修复ID不存在的bug\n · 将浮空字商店指令合成到add (/shop add)指令里\n · 添加指令del (/shop del) 来删除浮空字商店的物品\n · 新增商店箱子标题,配置文件Config.yml里的ChestTitle修改"
 }
