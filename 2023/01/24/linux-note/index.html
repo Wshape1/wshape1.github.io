@@ -190,14 +190,17 @@
 <li>命令行模式</li>
 </ul>
 <p>进入为一般模式，在一一般模式下按a/A，i/I，o/O按键进入输入模式，按Esc退回一般模式，在正常模式下按:进入命令行模式输入命令按Enter提交。</p>
-<pre class="mermaid">graph TD
-    EQ[进入/退出] --vim filename--> Normal[一般模式]
-    Normal --:wq--> EQ
-    Normal --输入i a o --> Input[输入模式]
-    Input --ESC--> Normal
-    Normal --输入 : --> Cmd[命令行模式]
-    Cmd --回车以结束运行--> Normal</pre>
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  
+graph TD
+    EQ[进入&#x2F;退出] --vim filename--&gt; Normal[一般模式]
+    Normal --:wq--&gt; EQ
+    Normal --输入i a o --&gt; Input[输入模式]
+    Input --ESC--&gt; Normal
+    Normal --输入 : --&gt; Cmd[命令行模式]
+    Cmd --回车以结束运行--&gt; Normal
 
+  </pre></div>
 <h3 id="一般模式指令"><a href="#一般模式指令" class="headerlink" title="一般模式指令"></a>一般模式指令</h3><ul>
 <li><code>yy</code> 复制当前行（<code>5yy</code>复制包括当前往下5行）</li>
 <li><code>p</code> 粘贴</li>
@@ -558,7 +561,7 @@
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">*    *    *    *    *</span><br><span class="line">-    -    -    -    -</span><br><span class="line">|    |    |    |    |</span><br><span class="line">|    |    |    |    +----- 星期中星期几 (0 - 6) (星期天 为0)</span><br><span class="line">|    |    |    +---------- 月份 (1 - 12) </span><br><span class="line">|    |    +--------------- 一个月中的第几天 (1 - 31)</span><br><span class="line">|    +-------------------- 小时 (0 - 23)</span><br><span class="line">+------------------------- 分钟 (0 - 59)</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>时间格式特殊符号</p>
-<p>| 特殊符号 | 含义                                                         |<br>| ———— | —————————————————————————————— |<br>| ‘<em>‘      | 代表任何时间。比如第一个“</em>”就代表一小时中每分钟都执行一次的意思。 |<br>| ‘,’      | 代表不连续的时间。比如“0 8,12,16 <em> </em> <em> 命令”，就代表在每天的8点0分，12点0分，16点0分都执行一次命令 |<br>| ‘-‘      | 代表连续的时间范围。比如”05 </em> <em> 1-6命令” ,代表在周一到周六的凌晨5点0分执行命令 |<br>| ‘</em>/n’    | 代表每隔多久执行一次。比如“<em>/10 </em> <em> </em> * 命令”，代表每隔10分钟就执行一遍命令 |</p>
+<p>| 特殊符号 | 含义                                                         |<br>| ———— | —————————————————————————————— |<br>| <em>        | 代表任何时间。比如第一个“</em>”就代表一小时中每分钟都执行一次的意思。 |<br>| ,        | 代表不连续的时间。比如“0 8,12,16 <em> </em> <em> 命令”，就代表在每天的8点0分，12点0分，16点0分都执行一次命令 |<br>| -        | 代表连续的时间范围。比如”05 </em> <em> 1-6命令” ,代表在周一到周六的凌晨5点0分执行命令 |<br>| </em>/n      | 代表每隔多久执行一次。比如“<em>/10 </em> <em> </em> * 命令”，代表每隔10分钟就执行一遍命令 |</p>
 </li>
 </ul>
 <h3 id="at定时任务"><a href="#at定时任务" class="headerlink" title="at定时任务"></a>at定时任务</h3><ol>
@@ -806,9 +809,12 @@
 <li><code>setup</code></li>
 </ul>
 <p><strong>开机流程：</strong></p>
-<pre class="mermaid">graph LR
-    开机 ==> BIOS ==> /boot ==> systemd进程 ==> 运行级别 ==> 运行级别对应的服务</pre>
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  
+graph LR
+    开机 &#x3D;&#x3D;&gt; BIOS &#x3D;&#x3D;&gt; &#x2F;boot &#x3D;&#x3D;&gt; systemd进程 &#x3D;&#x3D;&gt; 运行级别 &#x3D;&#x3D;&gt; 运行级别对应的服务
 
+  </pre></div>
 <p>跳转查看<a href="#runLevel">运行级别</a>解释</p>
 <h3 id="chkconfig指令"><a href="#chkconfig指令" class="headerlink" title="chkconfig指令"></a>chkconfig指令</h3><p>管理服务在各个运行级别的自启动</p>
 <p>chkconfig 指令管理的服务在/etc/init.d/ 查看</p>
