@@ -1,13 +1,13 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Linux学习笔记 | Wshape1's Blogs</title><meta name="keywords" content="Linux,笔记"><meta name="author" content="Wshape1"><meta name="copyright" content="Wshape1"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Linux学习笔记Linux学习记录，按照韩顺平老师视频进行学习。 目录结构 Linux 系统目录结构 | 菜鸟教程  基本介绍 linux的文件系统是采用级层式的树状目录结构，在此结构中的最上层是根目录“&#x2F;”。 在Linux世界里，一切皆文件。  树状目录结构：  目录解释 &#x2F;bin [常用] (&#x2F;usr&#x2F;bin、 &#x2F;usr&#x2F;local&#x2F;bin)是Binary的缩写，这个目录存放着最经常使用的命">
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>Linux学习笔记 | Wshape1's Blogs</title><meta name="keywords" content="Linux,笔记"><meta name="author" content="Wshape1"><meta name="copyright" content="Wshape1"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Linux学习笔记Linux学习记录，按照韩顺平老师视频进行学习。 目录结构 Linux 系统目录结构 | 菜鸟教程  基本介绍 linux的文件系统是采用级层式的树状目录结构，在此结构中的最上层是根目录“&#x2F;”。 在Linux世界里，一切皆文件。  树状目录结构： 123456789101112131415161718192021&#x2F;├── bin -&gt; usr&#x2F;bin├── boot├──">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Linux学习笔记">
 <meta property="og:url" content="https://wshape1.github.io/2023/01/24/linux-note/index.html">
 <meta property="og:site_name" content="Wshape1&#39;s Blogs">
-<meta property="og:description" content="Linux学习笔记Linux学习记录，按照韩顺平老师视频进行学习。 目录结构 Linux 系统目录结构 | 菜鸟教程  基本介绍 linux的文件系统是采用级层式的树状目录结构，在此结构中的最上层是根目录“&#x2F;”。 在Linux世界里，一切皆文件。  树状目录结构：  目录解释 &#x2F;bin [常用] (&#x2F;usr&#x2F;bin、 &#x2F;usr&#x2F;local&#x2F;bin)是Binary的缩写，这个目录存放着最经常使用的命">
+<meta property="og:description" content="Linux学习笔记Linux学习记录，按照韩顺平老师视频进行学习。 目录结构 Linux 系统目录结构 | 菜鸟教程  基本介绍 linux的文件系统是采用级层式的树状目录结构，在此结构中的最上层是根目录“&#x2F;”。 在Linux世界里，一切皆文件。  树状目录结构： 123456789101112131415161718192021&#x2F;├── bin -&gt; usr&#x2F;bin├── boot├──">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://static.wikia.nocookie.net/mccreator/images/1/16/For_minecraft_ideas_wiki_penguin.png">
 <meta property="article:published_time" content="2023-01-24T03:21:02.000Z">
-<meta property="article:modified_time" content="2023-01-26T13:50:00.000Z">
+<meta property="article:modified_time" content="2023-01-28T13:30:00.000Z">
 <meta property="article:author" content="Wshape1">
 <meta property="article:tag" content="Linux">
 <meta property="article:tag" content="笔记">
@@ -61,7 +61,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: true,
-  postUpdate: '2023-01-26 21:50:00'
+  postUpdate: '2023-01-28 21:30:00'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -150,7 +150,7 @@
       }
     }
     detectApple()
-    })(window)</script><meta name="generator" content="Hexo 6.0.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://static.wikia.nocookie.net/mccreator/images/1/16/For_minecraft_ideas_wiki_penguin.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Wshape1's Blogs</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Linux学习笔记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-01-24T03:21:02.000Z" title="发表于 2023-01-24 11:21:02">2023-01-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-01-26T13:50:00.000Z" title="更新于 2023-01-26 21:50:00">2023-01-26</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Linux/">Linux</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">4.9k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>16分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Linux学习笔记"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="Linux学习笔记"><a href="#Linux学习笔记" class="headerlink" title="Linux学习笔记"></a>Linux学习笔记</h1><p>Linux学习记录，按照<a target="_blank" rel="noopener" href="https://space.bilibili.com/651245581" title="韩顺平 - Bilibili">韩顺平老师</a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Sv411r7vd" title="【小白入门 通俗易懂】2021韩顺平 一周学会Linux">视频</a>进行学习。</p>
+    })(window)</script><meta name="generator" content="Hexo 6.0.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://static.wikia.nocookie.net/mccreator/images/1/16/For_minecraft_ideas_wiki_penguin.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Wshape1's Blogs</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Linux学习笔记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-01-24T03:21:02.000Z" title="发表于 2023-01-24 11:21:02">2023-01-24</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-01-28T13:30:00.000Z" title="更新于 2023-01-28 21:30:00">2023-01-28</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Linux/">Linux</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">6.7k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>23分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Linux学习笔记"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="Linux学习笔记"><a href="#Linux学习笔记" class="headerlink" title="Linux学习笔记"></a>Linux学习笔记</h1><p>Linux学习记录，按照<a target="_blank" rel="noopener" href="https://space.bilibili.com/651245581" title="韩顺平 - Bilibili">韩顺平老师</a><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Sv411r7vd" title="【小白入门 通俗易懂】2021韩顺平 一周学会Linux">视频</a>进行学习。</p>
 <h2 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h2><blockquote>
 <p><a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-system-contents.html">Linux 系统目录结构 | 菜鸟教程</a></p>
 </blockquote>
@@ -159,6 +159,7 @@
 <li>在Linux世界里，一切皆文件。</li>
 </ol>
 <p>树状目录结构：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">/</span><br><span class="line">├── bin -&gt; usr/bin</span><br><span class="line">├── boot</span><br><span class="line">├── dev</span><br><span class="line">├── etc</span><br><span class="line">├── home</span><br><span class="line">├── lib -&gt; usr/lib</span><br><span class="line">├── lib64 -&gt; usr/lib64</span><br><span class="line">├── lost+found</span><br><span class="line">├── media</span><br><span class="line">├── mnt</span><br><span class="line">├── opt</span><br><span class="line">├── proc</span><br><span class="line">├── root</span><br><span class="line">├── run</span><br><span class="line">├── sbin -&gt; usr/sbin</span><br><span class="line">├── srv</span><br><span class="line">├── sys</span><br><span class="line">├── tmp</span><br><span class="line">├── usr</span><br><span class="line">└── var</span><br></pre></td></tr></table></figure>
 <p><img src="https://www.runoob.com/wp-content/uploads/2014/06/d0c50-linux2bfile2bsystem2bhierarchy.jpg" alt=""></p>
 <h3 id="目录解释"><a href="#目录解释" class="headerlink" title="目录解释"></a>目录解释</h3><ul>
 <li><strong>/bin</strong> [常用] (/usr/bin、 /usr/local/bin)是Binary的缩写，这个目录存放着最经常使用的命令</li>
@@ -189,52 +190,58 @@
 <li>命令行模式</li>
 </ul>
 <p>进入为一般模式，在一一般模式下按a/A，i/I，o/O按键进入输入模式，按Esc退回一般模式，在正常模式下按:进入命令行模式输入命令按Enter提交。</p>
-<p>下图对应一般模式-命令模式，底线命令模式-命令行模式：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2014/07/vim-vi-workmodel.png" alt=""></p>
+<pre class="mermaid">graph TD
+    EQ[进入/退出] --vim filename--> Normal[一般模式]
+    Normal --:wq--> EQ
+    Normal --输入i a o --> Input[输入模式]
+    Input --ESC--> Normal
+    Normal --输入 : --> Cmd[命令行模式]
+    Cmd --回车以结束运行--> Normal</pre>
+
 <h3 id="一般模式指令"><a href="#一般模式指令" class="headerlink" title="一般模式指令"></a>一般模式指令</h3><ul>
-<li>yy 复制当前行（5yy复制包括当前往下5行）</li>
-<li>p 粘贴</li>
-<li>dd 删除当前行（5dd删除包括当前往下5行）</li>
-<li>gg 光标跳到第一行</li>
-<li>G 光标跳到最后一行</li>
-<li>&lt;行号&gt;gg/&lt;行号&gt;G 光标跳到指定行（例如：20gg/20G跳转到行号20）</li>
-<li>/&lt;关键词&gt; 搜索关键词，n查找下一个（例如/hello）</li>
+<li><code>yy</code> 复制当前行（<code>5yy</code>复制包括当前往下5行）</li>
+<li><code>p</code> 粘贴</li>
+<li><code>dd</code> 删除当前行（<code>5dd</code>删除包括当前往下5行）</li>
+<li><code>gg</code> 光标跳到第一行</li>
+<li><code>G</code> 光标跳到最后一行</li>
+<li><code>&lt;行号&gt;gg/&lt;行号&gt;G</code> 光标跳到指定行（例如：<code>20gg/20G</code>跳转到行号20）</li>
+<li><code>/&lt;关键词&gt;</code> 搜索关键词，<code>n</code>查找下一个（例如<code>/hello</code>）</li>
 </ul>
 <h3 id="命令行模式指令"><a href="#命令行模式指令" class="headerlink" title="命令行模式指令"></a>命令行模式指令</h3><ul>
-<li><p>:h 查看help.txt</p>
+<li><p><code>:h</code> 查看help.txt</p>
 </li>
-<li><p>:w 保存写入</p>
+<li><p><code>:w</code> 保存写入</p>
 </li>
-<li>:q 退出</li>
-<li>:q! 强制退出</li>
-<li>:wq 保存写入并退出</li>
-<li>:&lt;行号&gt; 跳转到指定行号（如：:20 跳转到行号20）</li>
-<li>:set nu 临时设置行号</li>
-<li>:set nonu 取消行号</li>
+<li><code>:q</code> 退出</li>
+<li><code>:q!</code> 强制退出</li>
+<li><code>:wq</code> 保存写入并退出</li>
+<li><code>:&lt;行号&gt;</code> 跳转到指定行号（如：<code>:20</code> 跳转到行号20）</li>
+<li><code>:set nu</code> 临时设置行号</li>
+<li><code>:set nonu</code> 取消行号</li>
 </ul>
 <h3 id="Vim键盘图"><a href="#Vim键盘图" class="headerlink" title="Vim键盘图"></a>Vim键盘图</h3><p><img src="https://www.runoob.com/wp-content/uploads/2015/10/vi-vim-cheat-sheet-sch.gif" alt=""></p>
-<h2 id="用户管理"><a href="#用户管理" class="headerlink" title="用户管理"></a>用户管理</h2><h3 id="相关指令（命令）"><a href="#相关指令（命令）" class="headerlink" title="相关指令（命令）"></a>相关指令（命令）</h3><p>su - <user> 切换用户</p>
-<p>logout/exit 登出</p>
-<p>id <user> 查看用户信息</p>
-<p>whoami 查看当前会话用户</p>
-<p>who am i 查看登录的用户信息 （第一次会话的）</p>
-<p>useradd <user> 创建用户</p>
+<h2 id="用户管理"><a href="#用户管理" class="headerlink" title="用户管理"></a>用户管理</h2><h3 id="相关指令（命令）"><a href="#相关指令（命令）" class="headerlink" title="相关指令（命令）"></a>相关指令（命令）</h3><p><code>su - &lt;user&gt;</code> 切换用户</p>
+<p><code>logout</code> / <code>exit</code> 登出</p>
+<p><code>id &lt;user&gt;</code> 查看用户信息</p>
+<p><code>whoami</code> 查看当前会话用户</p>
+<p><code>who am i</code> 查看登录的用户信息 （第一次会话的）</p>
+<p><code>useradd &lt;user&gt;</code> 创建用户</p>
 <ul>
-<li>-r 指定家目录</li>
-<li>-g 添加到指定用户组（不添加将创建与该用户同名的组，并指定该组）</li>
+<li><code>-r</code> 指定家目录</li>
+<li><code>-g</code> 添加到指定用户组（不添加将创建与该用户同名的组，并指定该组）</li>
 </ul>
-<p>passwd <user> 修改用户密码</p>
-<p>userdel <user> 删除用户</p>
+<p><code>passwd &lt;user&gt;</code> 修改用户密码</p>
+<p><code>userdel &lt;user&gt;</code> 删除用户</p>
 <ul>
-<li>-r 同时删除家目录</li>
+<li><code>-r</code> 同时删除家目录</li>
 </ul>
-<p>usermod [选项] <user> 修改用户属性</p>
+<p><code>usermod [选项] &lt;user&gt;</code> 修改用户属性</p>
 <ul>
-<li>-g 修改用户组</li>
-<li>-d 修改用户家目录（需要有一定权限）</li>
+<li><code>-g</code> 修改用户组</li>
+<li><code>-d</code> 修改用户家目录（需要有一定权限）</li>
 </ul>
-<p>groupadd <group> 创建用户组</p>
-<p>groupdel <group> 删除用户组</p>
+<p><code>groupadd &lt;group&gt;</code> 创建用户组</p>
+<p><code>groupdel &lt;group&gt;</code> 删除用户组</p>
 <h3 id="用户和组相关文件"><a href="#用户和组相关文件" class="headerlink" title="用户和组相关文件"></a>用户和组相关文件</h3><p>/etc/passwd文件</p>
 <ul>
 <li>用户的配置文件，记录用户的各种信息</li>
@@ -267,7 +274,7 @@
 <blockquote>
 <p>其它操作修改： <a target="_blank" rel="noopener" href="https://blog.csdn.net/weixin_38044888/article/details/89915553">Linux系统忘记了root密码怎么办？<em>Dribblelife的博客-CSDN博客</em>忘记root密码</a></p>
 </blockquote>
-<h2 id="运行级别"><a href="#运行级别" class="headerlink" title="运行级别"></a>运行级别</h2><h3 id="基本介绍-1"><a href="#基本介绍-1" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>运行级别说明：</p>
+<h2 id="运行级别"><a href="#运行级别" class="headerlink" title="运行级别"></a><span id="runLevel">运行级别</span></h2><h3 id="基本介绍-1"><a href="#基本介绍-1" class="headerlink" title="基本介绍"></a>基本介绍</h3><p>运行级别说明：</p>
 <ul>
 <li>0:关机</li>
 <li>1:单用户【找回丢失密码】</li>
@@ -278,58 +285,58 @@
 <li>6：系统重启</li>
 </ul>
 <p>常用运行级别是3和5，也可以指定默认运行级别</p>
-<p>演示应用实例命令：<strong>init [0123456]</strong> </p>
+<p>演示应用实例命令：<strong><code>init [0123456]</code></strong> </p>
 <p>应用案例：通过init 来切换不同的运行级别，比如动 5-3，然后关机。</p>
 <ul>
-<li>systemctl get-default 查看默认运行级别</li>
-<li>systemctl set-default &lt;级别&gt; 设置默认运行级别<ul>
-<li>multi-user.target 多用户级别</li>
-<li>graphical.target 图形级别</li>
+<li><code>systemctl get-default</code> 查看默认运行级别</li>
+<li><code>systemctl set-default &lt;级别&gt;</code> 设置默认运行级别<ul>
+<li><code>multi-user.target</code> 多用户级别 3</li>
+<li><code>graphical.target</code> 图形级别 5</li>
 </ul>
 </li>
 </ul>
 <h2 id="帮助指令"><a href="#帮助指令" class="headerlink" title="帮助指令"></a>帮助指令</h2><ul>
-<li>man &lt;命令或配置文件&gt; 获得帮助信息（man ls查看ls命令的帮助信息）</li>
-<li>help [命令] 获取shell内置命令的帮助信息（如help cd）</li>
-<li>&lt;命令&gt; —help 查看某命令的帮助信息（如ls —help）</li>
+<li><code>man &lt;命令或配置文件&gt;</code> 获得帮助信息（<code>man ls</code>查看<code>ls</code>命令的帮助信息）</li>
+<li><code>help [命令]</code> 获取shell内置命令的帮助信息（如<code>help cd</code>）</li>
+<li><code>&lt;命令&gt; --help</code> 查看某命令的帮助信息（如<code>ls --help</code>）</li>
 </ul>
-<h2 id="文件目录指令"><a href="#文件目录指令" class="headerlink" title="文件目录指令"></a>文件目录指令</h2><p>pwd 显示当前工作目录的绝对路径<br>ls [选项] [目录/文件] 查看显示目录/文件信息</p>
+<h2 id="文件目录指令"><a href="#文件目录指令" class="headerlink" title="文件目录指令"></a>文件目录指令</h2><p><code>pwd</code> 显示当前工作目录的绝对路径<br><code>ls [选项] [目录/文件]</code> 查看显示目录/文件信息</p>
 <ul>
-<li>-a 显示当前目录所有的文件和目录，包括隐藏的</li>
-<li>-l 已列表的方式显示信息（等同于ll）</li>
-<li>-i </li>
-<li>-h 转换大小单位</li>
+<li><code>-a</code> 显示当前目录所有的文件和目录，包括隐藏的</li>
+<li><code>-l</code> 已列表的方式显示信息（等同于ll）</li>
+<li><code>-i</code></li>
+<li><code>-h</code> 转换大小单位</li>
 </ul>
-<p>cd <path> 切换到指定目录</p>
+<p><code>cd &lt;dir&gt;</code> 切换到指定目录</p>
 <ul>
-<li>cd ~ 切换到家目录</li>
-<li>cd .. 返回上一级目录</li>
+<li><code>cd ~</code> 切换到家目录</li>
+<li><code>cd ..</code> 返回上一级目录</li>
 </ul>
-<p>mkdir [选项] &lt;目录&gt; 创建目录</p>
+<p><code>mkdir [选项] &lt;目录&gt;</code> 创建目录</p>
 <ul>
-<li>-p 创建多级目录</li>
+<li><code>-p</code> 创建多级目录</li>
 </ul>
-<p>rmdir &lt;目录&gt; 删除空目录<br>rm [选项] &lt;文件/目录&gt; 删除目录/文件</p>
+<p><code>rmdir &lt;目录&gt;</code> 删除空目录<br><code>rm [选项] &lt;文件/目录&gt;</code> 删除目录/文件</p>
 <ul>
-<li>-r 递归删除整个目录</li>
-<li>-f 强制删除不提示</li>
-<li>-rf 包含上面两者</li>
+<li><code>-r</code> 递归删除整个目录</li>
+<li><code>-f</code> 强制删除不提示</li>
+<li><code>-rf</code> 包含上面两者</li>
 </ul>
-<p>touch <file> 创建一个空文件</p>
-<p>cp [选项] <source> <dest> 复制文件/目录到指定目录</p>
+<p><code>touch &lt;file&gt;</code> 创建一个空文件</p>
+<p><code>cp [选项] &lt;source&gt; &lt;dest&gt;</code> 复制文件/目录到指定目录</p>
 <ul>
-<li>-r 递归复制整个目录</li>
-<li>\cp 强制覆盖不提示</li>
+<li><code>-r</code> 递归复制整个目录</li>
+<li><code>\cp</code> 强制覆盖不提示</li>
 </ul>
 <p>mv 移动文件与目录或重命名</p>
 <ul>
-<li>mv <oldName> <newName> 重命名</li>
-<li>mv <file/dir> <path> 移动文件/目录</li>
+<li><code>mv &lt;oldName&gt; &lt;newName&gt;</code> 重命名</li>
+<li><code>mv &lt;file/dir&gt; &lt;path&gt;</code> 移动文件/目录</li>
 </ul>
-<p>cat [选项] 查看文件内容</p>
+<p><code>cat [选项]</code> 查看文件内容</p>
 <ul>
-<li>-n 显示行号</li>
-<li>cat [选项] <file> | more </li>
+<li><code>-n</code> 显示行号</li>
+<li><code>cat [选项] &lt;file&gt; | more</code></li>
 </ul>
 <p>more 基于VI编辑器的文本过滤器，以全屏幕的方式按页显示</p>
 <ul>
@@ -350,92 +357,92 @@
 <li>?<keyword> 向上搜寻。 n：下一个 N：上一个</li>
 <li>q 退出</li>
 </ul>
-<p>echo [选项] <content>  输出内容到控制台</p>
+<p><code>echo [选项] &lt;content&gt;</code>  输出内容到控制台</p>
 <ul>
-<li>如 echo $HOSTNAME 输出主机名</li>
-<li>如 echo $PATH 输出环境变量</li>
+<li>如 <code>echo $HOSTNAME</code> 输出主机名</li>
+<li>如 <code>echo $PATH</code> 输出环境变量</li>
 </ul>
-<p>head [选项] <file> 显示文件的头部内容，默认前十行</p>
+<p><code>head [选项] &lt;file&gt;</code> 显示文件的头部内容，默认前十行</p>
 <ul>
-<li>-n <lines> 显示前多少行</li>
-<li>-c  <bytes> 显示前多少字节</li>
+<li><code>-n &lt;lines&gt;</code> 显示前多少行</li>
+<li><code>-c  &lt;bytes&gt;</code> 显示前多少字节</li>
 </ul>
-<p>tail [选项] <file> 显示文件的尾部内容，默认后十行</p>
+<p><code>tail [选项] &lt;file&gt;</code> 显示文件的尾部内容，默认后十行</p>
 <ul>
-<li>-n <lines> 显示后多少行</li>
-<li>-c  <bytes> 显示后多少字节</li>
-<li>-f 实时监控文件变化</li>
+<li><code>-n &lt;lines&gt;</code> 显示后多少行</li>
+<li><code>-c  &lt;bytes&gt;</code> 显示后多少字节</li>
+<li><code>-f</code> 实时监控文件变化</li>
 </ul>
 <p>‘&gt;’ 输出重定向（覆盖）</p>
 <p>‘&gt;&gt;’ 追加</p>
 <ul>
-<li>ls -l &gt; 文件 列表的内容覆盖到文件</li>
-<li>ls -al &gt;&gt; 文件 列表的内容追加到文件</li>
-<li>cat 文件1 &gt; 文件2 将文件1的内容覆盖到文件2</li>
-<li>echo “内容”  &gt;&gt; 文件 追加内容到文件</li>
+<li><code>ls -l &gt; 文件</code> 列表的内容覆盖到文件</li>
+<li><code>ls -al &gt;&gt; 文件</code> 列表的内容追加到文件</li>
+<li><code>cat 文件1 &gt; 文件2</code> 将文件1的内容覆盖到文件2</li>
+<li><code>echo &quot;内容&quot;  &gt;&gt; 文件</code> 追加内容到文件</li>
 </ul>
 <p>In指令：软链接也称为符号链接，类似于windows里的快捷方式，主要存放了链接其他文件的路径</p>
 <ul>
-<li>ln -s &lt;原文件/目录&gt; &lt;软链接名&gt; 给原文件/目录创建一个软链接（pwd查看仍在原文件/目录）</li>
+<li><code>ln -s &lt;原文件/目录&gt; &lt;软链接名&gt;</code> 给原文件/目录创建一个软链接（pwd查看仍在原文件/目录）</li>
 </ul>
-<p>history [数量] 查看已经执行过的历史命令，无参默认显示全部</p>
+<p><code>history [数量]</code> 查看已经执行过的历史命令，无参默认显示全部</p>
 <ul>
-<li>!&lt;编号&gt; 执行历史命令中编号为&lt;编号&gt;的命令（如!5 执行编号为5的命令）</li>
+<li><code>!&lt;编号&gt;</code> 执行历史命令中编号为&lt;编号&gt;的命令（如!5 执行编号为5的命令）</li>
 </ul>
-<h2 id="时间日期指令"><a href="#时间日期指令" class="headerlink" title="时间日期指令"></a>时间日期指令</h2><p>date 显示当前时间<br>date +%Y 显示当前年份<br>date +%m 显示当前月份<br>date +%d 显示当前是哪一天<br>date “+%Y-%m-%d %H:%M:%S” 显示年月日时分秒<br>date -s &lt;字符串时间&gt; 设置系统当前时间</p>
-<p>cal [选项] 显示当前日历，无参默认显示当前时间日历</p>
+<h2 id="时间日期指令"><a href="#时间日期指令" class="headerlink" title="时间日期指令"></a>时间日期指令</h2><p><code>date</code> 显示当前时间<br><code>date +%Y</code> 显示当前年份<br><code>date +%m</code> 显示当前月份<br><code>date +%d</code> 显示当前是哪一天<br><code>date &quot;+%Y-%m-%d %H:%M:%S&quot;</code> 显示年月日时分秒<br><code>date -s &lt;字符串时间&gt;</code> 设置系统当前时间</p>
+<p><code>cal [选项]</code> 显示当前日历，无参默认显示当前时间日历</p>
 <ul>
-<li>cal 2023 显示2023年日历</li>
+<li><code>cal 2023</code> 显示2023年日历</li>
 </ul>
-<h2 id="搜索查找指令"><a href="#搜索查找指令" class="headerlink" title="搜索查找指令"></a>搜索查找指令</h2><p>find [范围] [选项] 从指定目录向下递归遍历其各个子目录查找</p>
+<h2 id="搜索查找指令"><a href="#搜索查找指令" class="headerlink" title="搜索查找指令"></a>搜索查找指令</h2><p><code>find [范围] [选项]</code> 从指定目录向下递归遍历其各个子目录查找</p>
 <ul>
-<li>-name <name> 按照指定的文件名查找</li>
-<li>-user <user> 查找属于指定用户名的所有文件</li>
-<li>-size <size> 按照指定的文件大小查找文件（单位K，M，G）<ul>
-<li>find / -size +200M 查找/下大于200M的文件，-200M表示小于200M的文件</li>
+<li><code>-name &lt;name&gt;</code> 按照指定的文件名查找</li>
+<li><code>-user &lt;user&gt;</code> 查找属于指定用户名的所有文件</li>
+<li><code>-size &lt;size&gt;</code>按照指定的文件大小查找文件（单位K，M，G）<ul>
+<li><code>find / -size +200M</code>查找/下大于200M的文件，-200M表示小于200M的文件</li>
 </ul>
 </li>
 </ul>
-<p>locate <file> 可以快速定位文件路径。</p>
+<p><code>locate &lt;file&gt;</code> 可以快速定位文件路径。</p>
 <ul>
 <li>locate指令利用事先建立的系统中所有文件名称及路径的locate数据库实现快速定位给定的文件。</li>
 <li>locate指令无需遍历整个文件系统,查询速度较快。</li>
 <li>为了保证查询结果的准确度，管理员必须定期更新locate时刻</li>
-<li>updatedb 更新数据库</li>
+<li><code>updatedb</code> 更新数据库</li>
 </ul>
-<p>which <cmd> 查询某个指令在哪个目录下</p>
-<p>grep [选项] &lt;内容&gt; &lt;源文件&gt; 过滤查找</p>
+<p><code>which &lt;cmd&gt;</code> 查询某个指令在哪个目录下</p>
+<p><code>grep [选项] &lt;内容&gt; &lt;源文件&gt;</code> 过滤查找</p>
 <ul>
-<li>-n 显示匹配行及行号</li>
-<li>-i 忽略字母大小写</li>
+<li><code>-n</code> 显示匹配行及行号</li>
+<li><code>-i</code> 忽略字母大小写</li>
 </ul>
-<p>‘|’ 管道符 ，将前一个命令查询到的内容交给下一个命令</p>
+<p><code>|</code>管道符 ，将前一个命令查询到的内容交给下一个命令</p>
 <ul>
-<li>cat a.txt | grep “hello”    cat查询到的内容交给grep进行过滤查找</li>
+<li><code>cat a.txt | grep &quot;hello&quot;</code>    cat查询到的内容交给grep进行过滤查找</li>
 </ul>
-<h2 id="压缩和解压"><a href="#压缩和解压" class="headerlink" title="压缩和解压"></a>压缩和解压</h2><p>gzip <file> 只能将文件压缩成.gz文件</p>
-<p>gunzip <file.gz> 解压.gz文件</p>
-<p>zip [选项] <name.zip> <file/dir> 压缩成name.zip文件</p>
+<h2 id="压缩和解压"><a href="#压缩和解压" class="headerlink" title="压缩和解压"></a>压缩和解压</h2><p><code>gzip &lt;file&gt;</code> 只能将文件压缩成.gz文件</p>
+<p><code>gunzip &lt;file.gz&gt;</code> 解压.gz文件</p>
+<p><code>zip [选项] &lt;name.zip&gt; &lt;file/dir&gt;</code> 压缩成name.zip文件</p>
 <ul>
-<li>-r 递归压缩，即压缩目录</li>
+<li><code>-r</code> 递归压缩，即压缩目录</li>
 </ul>
-<p>unzip [选项] <file.zip> 解压</p>
+<p><code>unzip [选项] &lt;file.zip&gt;</code> 解压</p>
 <ul>
-<li>-d <dir> 指定解压后存放目录</li>
+<li><code>-d &lt;dir&gt;</code> 指定解压后存放目录</li>
 </ul>
-<p>tar [选项] 打包、压缩或解压</p>
+<p><code>tar [选项]</code> 打包、压缩或解压</p>
 <ul>
-<li>-c 产生.tar打包文件</li>
-<li>-v 显示详细信息</li>
-<li>-f 指定压缩后的文件名</li>
-<li>-z 通过gzip指令处理压缩解压</li>
-<li>-j 通过bzip2指令处理压缩解压</li>
-<li>-x 解包.tar文件</li>
-<li>-C 指定解压目录</li>
+<li><code>-c</code> 产生.tar打包文件</li>
+<li><code>-v</code> 显示详细信息</li>
+<li><code>-f</code> 指定压缩后的文件名</li>
+<li><code>-z</code> 通过gzip指令处理压缩解压</li>
+<li><code>-j</code> 通过bzip2指令处理压缩解压</li>
+<li><code>-x</code> 解包.tar文件</li>
+<li><code>-C</code> 指定解压目录</li>
 <li>常见用法<ul>
-<li>tar -czvf <xxx.tar.gz> <file>… 压缩成.tar.gz</li>
-<li>tar -xzvf <xxx.tar.gz> 解压</li>
-<li>tar -tzvf <xxx.tar.gz> 列出压缩文件内容</li>
+<li><code>tar -czvf &lt;xxx.tar.gz&gt; &lt;file&gt;...</code> 压缩成.tar.gz</li>
+<li><code>tar -xzvf &lt;xxx.tar.gz&gt;</code> 解压</li>
+<li><code>tar -tzvf &lt;xxx.tar.gz&gt;</code> 列出压缩文件内容</li>
 </ul>
 </li>
 </ul>
@@ -443,7 +450,7 @@
 <p><a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-comm-tar.html">Linux tar 命令 |  菜鸟教程</a></p>
 </blockquote>
 <h2 id="Linux组-权限"><a href="#Linux组-权限" class="headerlink" title="Linux组(权限)"></a>Linux组(权限)</h2><h3 id="基本内容"><a href="#基本内容" class="headerlink" title="基本内容"></a>基本内容</h3><p>在linux中的每个用户必须属于一个组，不能独立于组外。在linux中每个文档/文件有所有者、所属组、其它组的概念。</p>
-<p>ls -ahl显示格式解释如下：</p>
+<p><code>ls -ahl</code>显示格式解释如下：</p>
 <div class="table-container">
 <table>
 <thead>
@@ -504,21 +511,21 @@
 <li>[<strong>w</strong>]代表可写(write)： 可以修改,对目录内创建+删除+重命名目录</li>
 <li>[<strong>x</strong>]代表可执行(execute)：可以进入该目录 （但是不能查看目录内容）</li>
 </ol>
-<h3 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h3><p>chown [选项] <user> <file/dir> 修改文件/目录所有者</p>
+<h3 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h3><p><code>chown [选项] &lt;user&gt; &lt;file/dir&gt;</code> 修改文件/目录所有者</p>
 <ul>
-<li>chown [选项] <newOwner>:<newGroup> <file/dir> 同时修改所有者与所属组</li>
+<li><code>chown [选项] &lt;newOwner&gt;:&lt;newGroup&gt; &lt;file/dir&gt;</code> 同时修改所有者与所属组</li>
 </ul>
-<p>chgrp [选项] <group> <file/dir> 修改文件/目录所在组 </p>
-<p>chmod [选项] &lt;权限&gt; <file/dir> 修改文件/目录权限</p>
+<p><code>chgrp [选项] &lt;group&gt; &lt;file/dir&gt;</code> 修改文件/目录所在组 </p>
+<p><code>chmod [选项] &lt;权限&gt; &lt;file/dir&gt;</code> 修改文件/目录权限</p>
 <ul>
 <li>rwx方式变更权限u：所有者，g：所属组，o：其它组，a：所有人（u g o的总和）<ul>
-<li>例：chmod u=rwx, g=rx, o=x &lt;文件/目录&gt; 给u g o分别赋予rwx rx x权限</li>
-<li>例：chmod o+w &lt;文件/目录&gt; 给o增加w权限</li>
-<li>例：chmod a-x &lt;文件/目录&gt; 给a移除x权限</li>
+<li>例：<code>chmod u=rwx, g=rx, o=x &lt;文件/目录&gt;</code> 给u g o分别赋予rwx rx x权限</li>
+<li>例：<code>chmod o+w &lt;文件/目录&gt;</code> 给o增加w权限</li>
+<li>例：<code>chmod a-x &lt;文件/目录&gt;</code> 给a移除x权限</li>
 </ul>
 </li>
 <li>数字方式变更权限r=4 w=2 x=1，rwx=4+2+1=7<ul>
-<li>例：chmod 751&lt;文件/目录&gt; 等同于u=rwx, g=rx, o=x</li>
+<li>例：<code>chmod 751&lt;文件/目录&gt;</code> 等同于u=rwx, g=rx, o=x</li>
 </ul>
 </li>
 </ul>
@@ -536,41 +543,41 @@
 <h3 id="crond任务调度"><a href="#crond任务调度" class="headerlink" title="crond任务调度"></a>crond任务调度</h3><blockquote>
 <p> <a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-comm-crontab.html">Linux crontab 命令 | 菜鸟教程</a></p>
 </blockquote>
-<p>crontab [选项]</p>
+<p><code>crontab [选项]</code></p>
 <ul>
-<li>-e 编辑定时任务</li>
-<li>-l 查询定时任务</li>
-<li>-r 删除当前用户所有的定时任务</li>
+<li><code>-e</code> 编辑定时任务</li>
+<li><code>-l</code> 查询定时任务</li>
+<li><code>-r</code> 删除当前用户所有的定时任务</li>
 </ul>
 <p>service crond restart 重启crond</p>
 <p><strong>调度文件：</strong></p>
 <ul>
-<li><p>文件内容格式：f1 f2 f3 f4 f5 program  f1—5为时间格式program为执行程序</p>
+<li><p>文件内容格式：<code>f1 f2 f3 f4 f5 program</code>  f1—5为时间格式program为执行程序</p>
 </li>
 <li><p>时间占位符（时间格式）</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">*    *    *    *    *</span><br><span class="line">-    -    -    -    -</span><br><span class="line">|    |    |    |    |</span><br><span class="line">|    |    |    |    +----- 星期中星期几 (0 - 6) (星期天 为0)</span><br><span class="line">|    |    |    +---------- 月份 (1 - 12) </span><br><span class="line">|    |    +--------------- 一个月中的第几天 (1 - 31)</span><br><span class="line">|    +-------------------- 小时 (0 - 23)</span><br><span class="line">+------------------------- 分钟 (0 - 59)</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>时间格式特殊符号</p>
-<p>| 特殊符号 | 含义                                                         |<br>| ———— | —————————————————————————————— |<br>| <em>        | 代表任何时间。比如第一个“</em>”就代表一小时中每分钟都执行一次的意思。 |<br>| ,        | 代表不连续的时间。比如“0 8,12,16 <em> </em> <em> 命令”，就代表在每天的8点0分，12点0分，16点0分都执行一次命令 |<br>| -        | 代表连续的时间范围。比如”05 </em> <em> 1-6命令” ,代表在周一到周六的凌晨5点0分执行命令 |<br>| </em>/n      | 代表每隔多久执行一次。比如“<em>/10 </em> <em> </em> * 命令”，代表每隔10分钟就执行一遍命令### |</p>
+<p>| 特殊符号 | 含义                                                         |<br>| ———— | —————————————————————————————— |<br>| ‘<em>‘      | 代表任何时间。比如第一个“</em>”就代表一小时中每分钟都执行一次的意思。 |<br>| ‘,’      | 代表不连续的时间。比如“0 8,12,16 <em> </em> <em> 命令”，就代表在每天的8点0分，12点0分，16点0分都执行一次命令 |<br>| ‘-‘      | 代表连续的时间范围。比如”05 </em> <em> 1-6命令” ,代表在周一到周六的凌晨5点0分执行命令 |<br>| ‘</em>/n’    | 代表每隔多久执行一次。比如“<em>/10 </em> <em> </em> * 命令”，代表每隔10分钟就执行一遍命令 |</p>
 </li>
 </ul>
 <h3 id="at定时任务"><a href="#at定时任务" class="headerlink" title="at定时任务"></a>at定时任务</h3><ol>
 <li>at命令是一次性定时计划任务,at的守护进程atd会以后台模式运行,检查作业队列来运行。</li>
 <li>默认情况下，atd守护进程每60秒检查作业队列，有作业时，会检查作业运行时间，如果时间与当前时间匹配，则运行此作业。</li>
 <li>at命令是一次性定时计划任务，执行完一个任务后不再执行此任务了。</li>
-<li>在使用at命令的时候,一定要保证atd进程的启动,可以使用相关指令（ps -ef | grep atd）来查看。</li>
+<li>在使用at命令的时候,一定要保证atd进程的启动,可以使用相关指令（<code>ps -ef | grep atd</code>）来查看。</li>
 </ol>
-<p>at [选项] [时间] 设置定时任务 （Ctrl+D结束命令输入）</p>
+<p><code>at [选项] [时间]</code> 设置定时任务 （Ctrl+D结束命令输入）</p>
 <ul>
-<li>-m 当指定的任务被完成后，将给用户发送邮件，即使没有标准输出</li>
-<li>-I 显示待执行任务的列表 (同atq命令)</li>
-<li>-d 删除指定的待执行任务（同atrm命令）</li>
-<li>-v 显示任务将被执行的时间</li>
-<li>-c 打印任务的内容到标准输出</li>
-<li>-V 显示版本信息</li>
-<li>-q &lt;队列&gt; 使用指定的队列</li>
-<li>-f &lt;文件&gt; 从指定文件读入任务而不是从标准输入读入</li>
-<li>-t &lt;时间参数&gt; 以时间参数的形式提交要运行的任务</li>
+<li><code>-m</code> 当指定的任务被完成后，将给用户发送邮件，即使没有标准输出</li>
+<li><code>-I</code> 显示待执行任务的列表 (同atq命令)</li>
+<li><code>-d</code> 删除指定的待执行任务（同atrm命令）</li>
+<li><code>-v</code> 显示任务将被执行的时间</li>
+<li><code>-c</code> 打印任务的内容到标准输出</li>
+<li><code>-V</code> 显示版本信息</li>
+<li><code>-q &lt;队列&gt;</code> 使用指定的队列</li>
+<li><code>-f &lt;文件&gt;</code> 从指定文件读入任务而不是从标准输入读入</li>
+<li><code>-t &lt;时间参数&gt;</code> 以时间参数的形式提交要运行的任务</li>
 </ul>
 <p>时间表达式：</p>
 <ul>
@@ -597,7 +604,7 @@
 <blockquote>
 <p> <a target="_blank" rel="noopener" href="https://www.cnblogs.com/yychuyu/p/15483186.html">Linux at命令详解 - 许良Linux</a></p>
 </blockquote>
-<h2 id="磁盘分区与挂载"><a href="#磁盘分区与挂载" class="headerlink" title="磁盘分区与挂载"></a>磁盘分区与挂载</h2><h3 id="Linux分区"><a href="#Linux分区" class="headerlink" title="Linux分区"></a>Linux分区</h3><p><strong>原理介绍:</strong></p>
+<h2 id="磁盘管理"><a href="#磁盘管理" class="headerlink" title="磁盘管理"></a>磁盘管理</h2><h3 id="磁盘分区"><a href="#磁盘分区" class="headerlink" title="磁盘分区"></a>磁盘分区</h3><p><strong>原理介绍:</strong></p>
 <ol>
 <li>Linux来说无论有几个分区，分给哪一目录使用，它归根结底就只有一个根目录，一个独立且唯一的文件结构，Linux中每个分区都是用来组成整个文件系统的一部分。</li>
 <li>Linux采用了一种叫“载入”的处理方法,它的整个文件系统中包含了一整套的文件和目录，且将一个分区和一个目录联系起来。这时要载入的一个分区将使它的存储空间在一个目录下获得。</li>
@@ -610,14 +617,14 @@
 </ol>
 <p><strong>查看所有设备挂载情况</strong></p>
 <ul>
-<li><p>lsblk</p>
+<li><p><code>lsblk</code></p>
 </li>
-<li><p>lsblk -f</p>
+<li><p><code>lsblk -f</code></p>
 </li>
 </ul>
 <p><strong>分区命令：</strong></p>
 <ul>
-<li>fdisk /dev/sdx </li>
+<li><code>fdisk /dev/sdx</code></li>
 <li>开始对/sdx分区<ul>
 <li>m 显示命令列表</li>
 <li>p 显示磁盘分区</li>
@@ -627,7 +634,205 @@
 </ul>
 </li>
 </ul>
-</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Wshape1</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://wshape1.github.io/2023/01/24/linux-note/">https://wshape1.github.io/2023/01/24/linux-note/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://wshape1.github.io" target="_blank">Wshape1's Blogs</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Linux/">Linux</a><a class="post-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a></div><div class="post_share"><div class="social-share" data-image="https://static.wikia.nocookie.net/mccreator/images/1/16/For_minecraft_ideas_wiki_penguin.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/07/15/fast_power/"><img class="next-cover" src="/img/background.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">快速幂算法(例:a^b mod p)</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Wshape1</div><div class="author-info__description">美好都会如期而至的。</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Wshape1" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:Wshape1@126.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">ohHHHHHHH~</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"><span class="toc-number">1.</span> <span class="toc-text">Linux学习笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="toc-number">1.1.</span> <span class="toc-text">目录结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.1.1.</span> <span class="toc-text">基本介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95%E8%A7%A3%E9%87%8A"><span class="toc-number">1.1.2.</span> <span class="toc-text">目录解释</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Vim%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95"><span class="toc-number">1.2.</span> <span class="toc-text">Vim基本用法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#vim%E7%9A%84%E4%B8%89%E4%B8%AA%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.2.1.</span> <span class="toc-text">vim的三个模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E8%88%AC%E6%A8%A1%E5%BC%8F%E6%8C%87%E4%BB%A4"><span class="toc-number">1.2.2.</span> <span class="toc-text">一般模式指令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%A8%A1%E5%BC%8F%E6%8C%87%E4%BB%A4"><span class="toc-number">1.2.3.</span> <span class="toc-text">命令行模式指令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Vim%E9%94%AE%E7%9B%98%E5%9B%BE"><span class="toc-number">1.2.4.</span> <span class="toc-text">Vim键盘图</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86"><span class="toc-number">1.3.</span> <span class="toc-text">用户管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4%EF%BC%88%E5%91%BD%E4%BB%A4%EF%BC%89"><span class="toc-number">1.3.1.</span> <span class="toc-text">相关指令（命令）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84%E7%9B%B8%E5%85%B3%E6%96%87%E4%BB%B6"><span class="toc-number">1.3.2.</span> <span class="toc-text">用户和组相关文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95"><span class="toc-number">1.3.3.</span> <span class="toc-text">忘记密码解决办法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB"><span class="toc-number">1.4.</span> <span class="toc-text">运行级别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D-1"><span class="toc-number">1.4.1.</span> <span class="toc-text">基本介绍</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%AE%E5%8A%A9%E6%8C%87%E4%BB%A4"><span class="toc-number">1.5.</span> <span class="toc-text">帮助指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E6%8C%87%E4%BB%A4"><span class="toc-number">1.6.</span> <span class="toc-text">文件目录指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E6%97%A5%E6%9C%9F%E6%8C%87%E4%BB%A4"><span class="toc-number">1.7.</span> <span class="toc-text">时间日期指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%90%9C%E7%B4%A2%E6%9F%A5%E6%89%BE%E6%8C%87%E4%BB%A4"><span class="toc-number">1.8.</span> <span class="toc-text">搜索查找指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8E%8B%E7%BC%A9%E5%92%8C%E8%A7%A3%E5%8E%8B"><span class="toc-number">1.9.</span> <span class="toc-text">压缩和解压</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Linux%E7%BB%84-%E6%9D%83%E9%99%90"><span class="toc-number">1.10.</span> <span class="toc-text">Linux组(权限)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E5%86%85%E5%AE%B9"><span class="toc-number">1.10.1.</span> <span class="toc-text">基本内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="toc-number">1.10.2.</span> <span class="toc-text">常用指令</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6"><span class="toc-number">1.11.</span> <span class="toc-text">定时任务调度</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#crond%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6"><span class="toc-number">1.11.1.</span> <span class="toc-text">crond任务调度</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#at%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1"><span class="toc-number">1.11.2.</span> <span class="toc-text">at定时任务</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA%E4%B8%8E%E6%8C%82%E8%BD%BD"><span class="toc-number">1.12.</span> <span class="toc-text">磁盘分区与挂载</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Linux%E5%88%86%E5%8C%BA"><span class="toc-number">1.12.1.</span> <span class="toc-text">Linux分区</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/01/24/linux-note/" title="Linux学习笔记"><img src="https://static.wikia.nocookie.net/mccreator/images/1/16/For_minecraft_ideas_wiki_penguin.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Linux学习笔记"/></a><div class="content"><a class="title" href="/2023/01/24/linux-note/" title="Linux学习笔记">Linux学习笔记</a><time datetime="2023-01-24T03:21:02.000Z" title="发表于 2023-01-24 11:21:02">2023-01-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/15/fast_power/" title="快速幂算法(例:a^b mod p)"><img src="/img/background.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="快速幂算法(例:a^b mod p)"/></a><div class="content"><a class="title" href="/2022/07/15/fast_power/" title="快速幂算法(例:a^b mod p)">快速幂算法(例:a^b mod p)</a><time datetime="2022-07-15T14:32:18.000Z" title="发表于 2022-07-15 22:32:18">2022-07-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/02/23/minimum_spanning_tree/" title="最小生成树(Minimum Spanning Tree)"><img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/a/a8/Oak_Tree.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="最小生成树(Minimum Spanning Tree)"/></a><div class="content"><a class="title" href="/2022/02/23/minimum_spanning_tree/" title="最小生成树(Minimum Spanning Tree)">最小生成树(Minimum Spanning Tree)</a><time datetime="2022-02-23T08:12:09.000Z" title="发表于 2022-02-23 16:12:09">2022-02-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/01/08/hello-world/" title="Hello World"><img src="/img/background.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2022/01/08/hello-world/" title="Hello World">Hello World</a><time datetime="2022-01-08T06:50:33.056Z" title="发表于 2022-01-08 14:50:33">2022-01-08</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://static.wikia.nocookie.net/mccreator/images/1/16/For_minecraft_ideas_wiki_penguin.png')"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2023 By Wshape1</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
+<p><strong>格式化磁盘：</strong></p>
+<p><code>mkfs -t &lt;分区类型&gt; /dev/sdx~</code></p>
+<ul>
+<li>分区类型：ext2、ext3、ext4、reiserfs、nfs、vfat</li>
+</ul>
+<p><strong>挂载分区：</strong></p>
+<p><code>mount &lt;设备&gt; &lt;目录&gt;</code></p>
+<ul>
+<li><p><code>mount /dev/sdx~ &lt;dir&gt;</code></p>
+</li>
+<li><p><strong>重启系统后失效</strong></p>
+</li>
+<li><p><strong>永久挂载分区：</strong></p>
+<ul>
+<li><p>修改/etc/fstab </p>
+</li>
+<li><p>添加行，行格式：<code>UUID或者设备名称 挂载目录 分区类型 文件系统的参数 能否被dump备份命令作用 是否检测扇区</code><br>如：<code>/dev/sdx~ /newdisk ext4 defaults 0 0</code></p>
+</li>
+<li><p>执行mount -a 或重启系统</p>
+</li>
+<li><blockquote>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/youmatterhsp/article/details/83933158">/etc/fstab文件的详解<em>韩帅平的博客-CSDN博客</em>/etc/fstab</a></p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>卸载分区：</strong></p>
+<p><code>umount &lt;设备&gt;</code></p>
+<p><code>umount &lt;被挂载目录&gt;</code></p>
+<h3 id="磁盘使用情况"><a href="#磁盘使用情况" class="headerlink" title="磁盘使用情况"></a>磁盘使用情况</h3><p><code>df -Th</code> 查看整体磁盘使用情况</p>
+<p><code>du [选项] [dir]</code> 查看指定目录的磁盘使用情况，默认为当前目录</p>
+<ul>
+<li><p><code>-s</code> 指定目录占用大小汇总</p>
+</li>
+<li><p><code>-h</code> 带计量单位</p>
+</li>
+<li><p><code>-a</code> 含文件</p>
+</li>
+<li><p><code>--max-depth=1</code> 子目录深度</p>
+</li>
+<li><p><code>-c</code> 列出明细的同时，增加汇总值</p>
+</li>
+<li><blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-filesystem.html">Linux 磁盘管理 | 菜鸟教程 (runoob.com)</a></p>
+</blockquote>
+</li>
+</ul>
+<h3 id="实用指令"><a href="#实用指令" class="headerlink" title="实用指令"></a>实用指令</h3><ol>
+<li>统计/opt文件夹下文件的个数<br><code>ls -l /opt | grep &quot;^-&quot; | wc -l</code></li>
+<li>统计/opt文件夹下目录的个数<br><code>ls -l /opt | grep &quot;^d&quot; | wc -l</code></li>
+<li>统计/opt文件夹下文件的个数，包括子文件夹里的<br><code>ls -lR /opt | grep &quot;^-&quot; | wc -l</code></li>
+<li>统计/opt文件夹下目录的个数，包括子文件夹里的<br><code>ls -lR /opt | grep &quot;^d&quot; | wc -l</code></li>
+<li>以树状显示目录结构tree目录，可能需要执行<code>yum install tree</code>安装</li>
+</ol>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-comm-wc.html">Linux wc命令 | 菜鸟教程 (runoob.com)</a></p>
+</blockquote>
+<h2 id="网络配置"><a href="#网络配置" class="headerlink" title="网络配置"></a>网络配置</h2><p>NAT(Network Address Translation)网络配置</p>
+<p><img src="https://thumbnail0.baidupcs.com/thumbnail/5d723dd5ap32adfbae45a3d493b38626?fid=3695888769-250528-123082600991386&amp;time=1674885600&amp;rt=sh&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-TfxQpGnGtuKjCHUZ9ejlhEg4%2Foc%3D&amp;expires=8h&amp;chkv=0&amp;chkbd=0&amp;chkpc=&amp;dp-logid=8710260679709777873&amp;dp-callid=0&amp;file_type=0&amp;size=c710_u400&amp;quality=100&amp;vuk=-&amp;ft=video" alt=""></p>
+<p><code>ifconfig</code> 查看网络配置</p>
+<p><code>ping &lt;ip&gt;</code> 测试当前主机是否可以于目标ip进行通讯</p>
+<h3 id="IP配置"><a href="#IP配置" class="headerlink" title="IP配置"></a>IP配置</h3><ul>
+<li><p>自动获取：</p>
+<ul>
+<li>登陆后，通过界面的来设置自动获取ip</li>
+<li>特点：linux启动后会自动获取IP</li>
+<li>缺点是每次自动获取的ip地址可能不一样。</li>
+</ul>
+</li>
+<li><p>手动配置：</p>
+<ul>
+<li><p>图形化：网络设置里配置</p>
+</li>
+<li><p>直接修改配置文件来指定IP并可以连接到外网(程序员推荐)</p>
+<ul>
+<li>编辑/etc/sysconfig/network-scripts/ifcfg-ens33（如修改为192.168.245.2）<ul>
+<li>修改IPV4配置方式<code>BOOTPROTO=&quot;static&quot;</code></li>
+<li>修改IP地址<code>IPADDR=192.168.245.128</code></li>
+<li>修改网关<code>GATEWAY=192.168.245.2</code></li>
+<li>修改DNS<code>DNS=192.168.245.2</code></li>
+<li>虚拟机的记得要配置虚拟机网络相关配置</li>
+<li><code>service network restart</code>或重启系统</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="主机名与hosts映射"><a href="#主机名与hosts映射" class="headerlink" title="主机名与hosts映射"></a>主机名与hosts映射</h3><p><strong>查看主机名：</strong></p>
+<ul>
+<li><code>hostname</code></li>
+</ul>
+<p><strong>修改主机名：</strong></p>
+<ul>
+<li>修改文件/etc/hostname</li>
+<li>重启系统</li>
+</ul>
+<p><strong>修改hosts映射：</strong></p>
+<ul>
+<li>编辑配置文件/etc/hosts</li>
+<li>行格式：<code>ip  域名(主机名)</code></li>
+</ul>
+<h2 id="进程管理"><a href="#进程管理" class="headerlink" title="进程管理"></a>进程管理</h2><p>在Linux中，每个执行的程序都称为一个进程。每一个进程都分配一个ID号(pid,进程号)。</p>
+<p>每个进程都可能以两种方式存在的。前台与后台，所谓前台进程就是用户目前的屏幕上可以进行操作的。后台进程则是实际在操作，但由于屏幕上无法看到的进程，通常使用后台方式执行。</p>
+<p><code>ps [选项]</code> 显示目前系统正在运行的程序</p>
+<ul>
+<li><code>-a</code> 显示当前终端的所有进程信息</li>
+<li><code>-u</code> 以用户的格式显示进程信息</li>
+<li><code>-x</code> 显示后台进程运行的参数</li>
+<li><code>-w</code> 不限制输出宽度</li>
+<li><code>-e</code> 显示所有进程</li>
+<li><code>-f</code> 全格式输出，包括命令</li>
+<li>寻找指定进程：<code>ps -ef | grep &lt;关键词&gt;</code></li>
+<li><code>ps -aux</code>输出格式：<code>USER PID %CPU %MEM VSZ RSS TTY STAT START TIME COMMAND</code><ul>
+<li>USER: 进程执行用户</li>
+<li>PID: 进程号</li>
+<li>%CPU: 占用的 CPU 使用率</li>
+<li>%MEM: 占用的物理内存使用率</li>
+<li>VSZ: 占用的虚拟内存大小 (KB)</li>
+<li>RSS: 占用的物理内存大小 (KB)</li>
+<li>TTY: 终端的次要装置号码 (minor device number of tty)</li>
+<li>STAT: 该行程的状态:<ul>
+<li>D: 无法中断的休眠状态 (通常 IO 的进程)</li>
+<li>R: 正在执行中 running</li>
+<li>S: 静止状态 sleep</li>
+<li>T: 暂停执行</li>
+<li>Z: 不存在但暂时无法消除（僵尸进程）</li>
+<li>W: 没有足够的内存分页可分配</li>
+<li>&lt;: 高优先序的进程</li>
+<li>N: 低优先序的进程</li>
+<li>L: 有内存分页分配并锁在内存内 (实时系统或捱A I/O)</li>
+</ul>
+</li>
+<li>START: 进程开始时间</li>
+<li>TIME: 执行的时间</li>
+<li>COMMAND:所执行的指令（过长会被截断）</li>
+</ul>
+</li>
+</ul>
+<p><strong>父子进程</strong></p>
+<ul>
+<li>ps -ef 查看 </li>
+<li>PPID表示父进程pid</li>
+</ul>
+<p><strong>终止进程</strong></p>
+<ul>
+<li><code>kill [选项] &lt;pid&gt;</code> 终止进程<ul>
+<li><code>-9</code> 强制终止进程</li>
+</ul>
+</li>
+<li><code>killall &lt;程序名&gt;</code> 通过进程名称杀死进程，也支持通配符，这在系统因负载过大而变得很慢时很有用</li>
+</ul>
+<p><strong>查看进程树</strong></p>
+<ul>
+<li><code>pstree [选项]</code> 查看进程树<ul>
+<li><code>-p</code> 显示进程的PID</li>
+<li><code>-u</code> 显示进程的所属用户</li>
+</ul>
+</li>
+</ul>
+<h2 id="服务管理"><a href="#服务管理" class="headerlink" title="服务管理"></a>服务管理</h2><p>服务(service)本质就是进程，但是是运行在后台的，通常都会监听某个端口，等待其它程序的请求，比如（mysqld，sshd 防火墙等），因此我们又称为守护进程，是Linux中非常重要的知识点。</p>
+<h3 id="service管理指令"><a href="#service管理指令" class="headerlink" title="service管理指令"></a>service管理指令</h3><ul>
+<li><code>service &lt;服务名&gt; &lt;start | stop | restart | reload | status&gt;</code></li>
+</ul>
+<p>service指令管理的服务在/etc/init.d/查看（<code>ll /etc/init.d/</code>）</p>
+<p><strong>查看系统服务</strong></p>
+<ul>
+<li><code>setup</code></li>
+</ul>
+<p><strong>开机流程：</strong></p>
+<pre class="mermaid">graph LR
+    开机 ==> BIOS ==> /boot ==> systemd进程 ==> 运行级别 ==> 运行级别对应的服务</pre>
+
+<p>跳转查看<a href="#runLevel">运行级别</a>解释</p>
+<h3 id="chkconfig指令"><a href="#chkconfig指令" class="headerlink" title="chkconfig指令"></a>chkconfig指令</h3><p>管理服务在各个运行级别的自启动</p>
+<p>chkconfig 指令管理的服务在/etc/init.d/ 查看</p>
+<p>基本用法：</p>
+<ul>
+<li><code>chkconfig --list</code> 查看服务</li>
+<li><code>chkconfig &lt;服务名&gt; --list</code> 查看某个服务</li>
+<li><code>chkconfig --level &lt;运行级别&gt; &lt;服务名&gt; &lt;on | off&gt;</code> 设置</li>
+</ul>
+<p><strong>重启系统生效</strong></p>
+<h3 id="systemctl管理指令"><a href="#systemctl管理指令" class="headerlink" title="systemctl管理指令"></a>systemctl管理指令</h3><p>systemctl指令管理的服务在<strong>/usr/lib/systemd/system/</strong>查看(<code>ll /usr/lib/systemd/system/</code>)</p>
+<p>systemctl简化了运行级别，只有3和5</p>
+<p><strong>基本用法：</strong></p>
+<ul>
+<li><code>systemctl &lt;start | stop | restart | status&gt; &lt;服务名&gt;</code> 开启/关闭/重启/查询 服务</li>
+<li><code>systemctl list-unit-files</code> 查看服务开机启动状态(是否开机自启)</li>
+<li><code>systemctl &lt;enable | disable&gt; &lt;服务名&gt;</code> 开启/关闭服务开机自启动</li>
+<li><code>systemctl is-enabled &lt;服务名&gt;</code>查询某个服务是否是自启动的</li>
+</ul>
+<h3 id="防火墙端口指令"><a href="#防火墙端口指令" class="headerlink" title="防火墙端口指令"></a>防火墙端口指令</h3><p><code>firewall-cmd --permanent --add-port=端口号/协议</code> 打开端口</p>
+<p><code>firewall-cmd --permanent --remove-port=端口号/协议</code> 关闭端口</p>
+<p><code>firewall-cmd --reload</code> 重新载入,才能生效</p>
+<p><code>firewall-cmd --query-port=端口/协议</code> 查询端口是否开放</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">Wshape1</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://wshape1.github.io/2023/01/24/linux-note/">https://wshape1.github.io/2023/01/24/linux-note/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://wshape1.github.io" target="_blank">Wshape1's Blogs</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Linux/">Linux</a><a class="post-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a></div><div class="post_share"><div class="social-share" data-image="https://static.wikia.nocookie.net/mccreator/images/1/16/For_minecraft_ideas_wiki_penguin.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/07/15/fast_power/"><img class="next-cover" src="/img/background.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">快速幂算法(例:a^b mod p)</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Wshape1</div><div class="author-info__description">美好都会如期而至的。</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Wshape1" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:Wshape1@126.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">ohHHHHHHH~</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0"><span class="toc-number">1.</span> <span class="toc-text">Linux学习笔记</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="toc-number">1.1.</span> <span class="toc-text">目录结构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D"><span class="toc-number">1.1.1.</span> <span class="toc-text">基本介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95%E8%A7%A3%E9%87%8A"><span class="toc-number">1.1.2.</span> <span class="toc-text">目录解释</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Vim%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95"><span class="toc-number">1.2.</span> <span class="toc-text">Vim基本用法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#vim%E7%9A%84%E4%B8%89%E4%B8%AA%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.2.1.</span> <span class="toc-text">vim的三个模式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E8%88%AC%E6%A8%A1%E5%BC%8F%E6%8C%87%E4%BB%A4"><span class="toc-number">1.2.2.</span> <span class="toc-text">一般模式指令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%A8%A1%E5%BC%8F%E6%8C%87%E4%BB%A4"><span class="toc-number">1.2.3.</span> <span class="toc-text">命令行模式指令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Vim%E9%94%AE%E7%9B%98%E5%9B%BE"><span class="toc-number">1.2.4.</span> <span class="toc-text">Vim键盘图</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86"><span class="toc-number">1.3.</span> <span class="toc-text">用户管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B8%E5%85%B3%E6%8C%87%E4%BB%A4%EF%BC%88%E5%91%BD%E4%BB%A4%EF%BC%89"><span class="toc-number">1.3.1.</span> <span class="toc-text">相关指令（命令）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84%E7%9B%B8%E5%85%B3%E6%96%87%E4%BB%B6"><span class="toc-number">1.3.2.</span> <span class="toc-text">用户和组相关文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BF%98%E8%AE%B0%E5%AF%86%E7%A0%81%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95"><span class="toc-number">1.3.3.</span> <span class="toc-text">忘记密码解决办法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C%E7%BA%A7%E5%88%AB"><span class="toc-number">1.4.</span> <span class="toc-text">运行级别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E4%BB%8B%E7%BB%8D-1"><span class="toc-number">1.4.1.</span> <span class="toc-text">基本介绍</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%AE%E5%8A%A9%E6%8C%87%E4%BB%A4"><span class="toc-number">1.5.</span> <span class="toc-text">帮助指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E6%8C%87%E4%BB%A4"><span class="toc-number">1.6.</span> <span class="toc-text">文件目录指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E6%97%A5%E6%9C%9F%E6%8C%87%E4%BB%A4"><span class="toc-number">1.7.</span> <span class="toc-text">时间日期指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%90%9C%E7%B4%A2%E6%9F%A5%E6%89%BE%E6%8C%87%E4%BB%A4"><span class="toc-number">1.8.</span> <span class="toc-text">搜索查找指令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8E%8B%E7%BC%A9%E5%92%8C%E8%A7%A3%E5%8E%8B"><span class="toc-number">1.9.</span> <span class="toc-text">压缩和解压</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Linux%E7%BB%84-%E6%9D%83%E9%99%90"><span class="toc-number">1.10.</span> <span class="toc-text">Linux组(权限)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E6%9C%AC%E5%86%85%E5%AE%B9"><span class="toc-number">1.10.1.</span> <span class="toc-text">基本内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="toc-number">1.10.2.</span> <span class="toc-text">常用指令</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6"><span class="toc-number">1.11.</span> <span class="toc-text">定时任务调度</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#crond%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6"><span class="toc-number">1.11.1.</span> <span class="toc-text">crond任务调度</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#at%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1"><span class="toc-number">1.11.2.</span> <span class="toc-text">at定时任务</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%A3%81%E7%9B%98%E7%AE%A1%E7%90%86"><span class="toc-number">1.12.</span> <span class="toc-text">磁盘管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A3%81%E7%9B%98%E5%88%86%E5%8C%BA"><span class="toc-number">1.12.1.</span> <span class="toc-text">磁盘分区</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%A3%81%E7%9B%98%E4%BD%BF%E7%94%A8%E6%83%85%E5%86%B5"><span class="toc-number">1.12.2.</span> <span class="toc-text">磁盘使用情况</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%9E%E7%94%A8%E6%8C%87%E4%BB%A4"><span class="toc-number">1.12.3.</span> <span class="toc-text">实用指令</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE"><span class="toc-number">1.13.</span> <span class="toc-text">网络配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#IP%E9%85%8D%E7%BD%AE"><span class="toc-number">1.13.1.</span> <span class="toc-text">IP配置</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%BB%E6%9C%BA%E5%90%8D%E4%B8%8Ehosts%E6%98%A0%E5%B0%84"><span class="toc-number">1.13.2.</span> <span class="toc-text">主机名与hosts映射</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86"><span class="toc-number">1.14.</span> <span class="toc-text">进程管理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%8D%E5%8A%A1%E7%AE%A1%E7%90%86"><span class="toc-number">1.15.</span> <span class="toc-text">服务管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#service%E7%AE%A1%E7%90%86%E6%8C%87%E4%BB%A4"><span class="toc-number">1.15.1.</span> <span class="toc-text">service管理指令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#chkconfig%E6%8C%87%E4%BB%A4"><span class="toc-number">1.15.2.</span> <span class="toc-text">chkconfig指令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#systemctl%E7%AE%A1%E7%90%86%E6%8C%87%E4%BB%A4"><span class="toc-number">1.15.3.</span> <span class="toc-text">systemctl管理指令</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%98%B2%E7%81%AB%E5%A2%99%E7%AB%AF%E5%8F%A3%E6%8C%87%E4%BB%A4"><span class="toc-number">1.15.4.</span> <span class="toc-text">防火墙端口指令</span></a></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/01/24/linux-note/" title="Linux学习笔记"><img src="https://static.wikia.nocookie.net/mccreator/images/1/16/For_minecraft_ideas_wiki_penguin.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Linux学习笔记"/></a><div class="content"><a class="title" href="/2023/01/24/linux-note/" title="Linux学习笔记">Linux学习笔记</a><time datetime="2023-01-24T03:21:02.000Z" title="发表于 2023-01-24 11:21:02">2023-01-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/15/fast_power/" title="快速幂算法(例:a^b mod p)"><img src="/img/background.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="快速幂算法(例:a^b mod p)"/></a><div class="content"><a class="title" href="/2022/07/15/fast_power/" title="快速幂算法(例:a^b mod p)">快速幂算法(例:a^b mod p)</a><time datetime="2022-07-15T14:32:18.000Z" title="发表于 2022-07-15 22:32:18">2022-07-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/02/23/minimum_spanning_tree/" title="最小生成树(Minimum Spanning Tree)"><img src="https://static.wikia.nocookie.net/minecraft_zh_gamepedia/images/a/a8/Oak_Tree.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="最小生成树(Minimum Spanning Tree)"/></a><div class="content"><a class="title" href="/2022/02/23/minimum_spanning_tree/" title="最小生成树(Minimum Spanning Tree)">最小生成树(Minimum Spanning Tree)</a><time datetime="2022-02-23T08:12:09.000Z" title="发表于 2022-02-23 16:12:09">2022-02-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/01/08/hello-world/" title="Hello World"><img src="/img/background.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2022/01/08/hello-world/" title="Hello World">Hello World</a><time datetime="2022-01-08T06:50:33.056Z" title="发表于 2022-01-08 14:50:33">2022-01-08</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('https://static.wikia.nocookie.net/mccreator/images/1/16/For_minecraft_ideas_wiki_penguin.png')"><div id="footer-wrap"><div class="copyright">&copy;2022 - 2023 By Wshape1</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">本地搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="/js/search/local-search.js"></script><script>var preloader = {
   endLoading: () => {
     document.body.style.overflow = 'auto';
     document.getElementById('loading-box').classList.add("loaded")
@@ -638,7 +843,31 @@
 
   }
 }
-window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>function loadValine () {
+window.addEventListener('load',preloader.endLoading())</script><div class="js-pjax"><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script><script>function loadValine () {
   function initValine () {
     const valine = new Valine(Object.assign({
       el: '#vcomment',
